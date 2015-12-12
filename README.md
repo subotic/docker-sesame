@@ -1,16 +1,22 @@
-(Unofficial) Openrdf Sesame Triplestore Docker Image
-=====================================================
+### (Unofficial) Openrdf Sesame Triplestore Docker Image
+--------------------------------------------------------------------
 
 Docker image to run a Sesame Triplestore inside a Tomcat application server
 
-Image tags
------------
+#### Image tags
+--------------------
+  - latest, 2.7.8 => [Dockerfile](https://github.com/subotic/docker-sesame/tree/master/2.7.8/Dockerfile)
 
-```
-  subotic/openrdf-sesame:latest
-	subotic/openrdf-sesame:2.7.8
+#### Usage
+---------------
+
+To run the image and bind to port :
+
+````
+docker run -d -p 8080:8080 subotic/openrdf-sesame
 ````
 
- - latest, 2.7.8 => [Dockerfile](https://github.com/subotic/docker-sesame/tree/master/2.7.8/Dockerfile)
+#### Sources
+----------------
 
 See [RDF4J.org](http://www.rdf4j.org) for Sesame's source code.
