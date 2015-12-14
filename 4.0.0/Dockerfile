@@ -1,14 +1,6 @@
-# Docker image contains:
-# - CentOS 7
-# - JRE 8
-# - Tomcat 8
-# - Sesame 2.7.8
-
 FROM centos:7
 
 MAINTAINER Ivan Subotic "ivan.subotic@unibas.ch"
-
-ENV JAVA_VERSION 8u66
 
 ENV TOMCAT_MAJOR_VERSION 8
 ENV TOMCAT_MINOR_VERSION 8.0.30
