@@ -3,10 +3,6 @@
 # - JRE 8
 # - Tomcat 8
 # - Sesame 2.7.8
-#
-# Credits go to:
-# - https://github.com/jdeathe/centos-ssh
-# - http://blog.zenika.com/index.php?post/2014/10/07/Setting-up-a-development-environment-using-Docker-and-Vagrant
 
 FROM centos:7
 
